@@ -9,3 +9,44 @@
     font-weight: 400;
     font-style: normal;
 }
+
+:root {
+    --sim-blue-grey-color: #0F172A;
+    --sim-sky-blue-color: #2563EB;
+    --sim-light-grey-color: #475569;
+    --sim-light-blue-color: #94A3B8;
+    --sim-light-blue-grey-color: #F1F5F9;
+    --white: white;
+}
+
+/* Color CSS */
+
+.sim-blue-grey-color {
+    color: var(--sim-blue-grey-color);
+}
+
+.sim-sky-blue-color {
+    color: var(--sim-sky-blue-color);
+}
+
+.sim-light-grey-color {
+    color: var(--sim-light-grey-color);
+}
+
+.sim-light-blue-color {
+    color: var(--sim-light-blue-color);
+}
+
+.sim-light-blue-grey-color {
+    color: var(--sim-light-blue-grey-color);
+}
+
+.white {
+    color: var(--white);
+}
+
+/* Width CSS */
+
+.max-width-1320px {
+    max-width: 1320px;
+}
